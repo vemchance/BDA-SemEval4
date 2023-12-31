@@ -1,0 +1,55 @@
+# BDA word embeddings experiments
+
+> Word embeddings experiments to determine which word embedding system to use
+
+A key problem in this task is that of being tested on unseen languages we haven't trained on. The solution to this is not obvious, hence experimentation is needed.
+
+This part of the project is headed up by Starbeamrainbowlabs [@sbrl](https://github.com/sbrl) <https://starbeamrainbowlabs.com/>.
+
+As I discovered in [my hull science festival demo](https://starbeamrainbowlabs.com/blog/article.php?article=posts/533-research-smflooding-vis.html), different languages are often embedded to different spaces. The question then becomes how can we embed the meaning of words into the **same** space *regardless* of the source language. Doing so has the potential to increase our score significantly.
+
+If this is not possible, then we'll hafta translate everything before it hits the model as a backup option.
+
+Alternatively, we can guess the source language and train the model on data from all languages, but this is challenging unless we have some idea what the source language is which isn't possible in this instance.
+
+## Getting started
+
+
+
+
+
+## Notes
+
+
+### Handling dataset
+> [Wikipedia-based Image Text Dataset (WIT)](https://github.com/google-research-datasets/wit/blob/main/DATA.md)
+
+...the file format is *horrible* but annoyingly compliant to its own standard. [mlr](https://miller.readthedocs.io/) seems capable of parsing it though. Like why don't you just provide JSONL?!?!
+
+Convert to JSON Lines:
+
+```bash
+mlr --icsv --ifs "\t" --ojsonl cat wit_v1.train.all-1percent_sample.tsv.gz >somefile.jsonl
+```
+
+
+Extract count per-language:
+
+```bash
+zcat wit_v1.train.all-1percent_sample.jsonl.gz | jq '.language' | sort | uniq -c | sort -nr
+```
+
+From 1% sample file, languages with 10K+ samples: en de fr es ru it nl pl ja
+
+
+Extract a deduplicated wordlist from descriptions:
+
+```bash
+zcat wit_v1.train.all-1percent_sample.jsonl.gz | jq --arg LANG "en" --raw-output 'select(.language == $LANG) | "\(.context_page_description) \(.context_section_description)"' | tr ',."()[]{}:;@#' ' ' | awk '{gsub(/[“”]|'"'"'\b|\b'"'"'/, " ", $0); gsub(/\s+/, "\n", $0); print tolower($0)}' | awk '!seen[$0]++' | gzip >some_filepath.txt.gz
+```
+
+The above, wrapped to run for every language in the above list:
+
+```bash
+for LANG in en de fr es ru it nl pl ja; do {(zcat wit_v1.train.all-1percent_sample.jsonl.gz | jq --arg LANG "$LANG" --raw-output 'select(.language == $LANG) | "\(.context_page_description) \(.context_section_description)"' | tr ',."()[]{}:;@#' ' ' | awk '{gsub(/[“”]|'"'"'\b|\b'"'"'/, " ", $0); gsub(/\s+/, "\n", $0); print tolower($0)}' | awk '!seen[$0]++' | gzip >"wordlist-$LANG.txt.gz"; echo "[ $(date) ] >>> LANG COMPLETE: $LANG" >&2;) &}; done
+```
