@@ -53,3 +53,7 @@ The above, wrapped to run for every language in the above list:
 ```bash
 for LANG in en de fr es ru it nl pl ja; do {(zcat wit_v1.train.all-1percent_sample.jsonl.gz | jq --arg LANG "$LANG" --raw-output 'select(.language == $LANG) | "\(.context_page_description) \(.context_section_description)"' | tr ',."()[]{}:;@#' ' ' | awk '{gsub(/[“”]|'"'"'\b|\b'"'"'/, " ", $0); gsub(/\s+/, "\n", $0); print tolower($0)}' | awk '!seen[$0]++' | gzip >"wordlist-$LANG.txt.gz"; echo "[ $(date) ] >>> LANG COMPLETE: $LANG" >&2;) &}; done
 ```
+
+
+## Known issues
+- It is unlikely that Japanese is being tokenised correctly, given we simply look for any whitespace character and split on that. Ref <https://github.com/taishi-i/toiro>
