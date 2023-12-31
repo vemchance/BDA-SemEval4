@@ -4,6 +4,7 @@
 
 This is our entry to [SemEval2024 Task 4: Multilingual Detection of Persuasion Techniques in Memes](https://propaganda.math.unipd.it/semeval2024task4/index.html). Our plan is to tackle only tasks **1** and **2a**.
 
+**This repository is a work in progress.**
 
 ## System Requirements
 - TODO detail system requirements here
