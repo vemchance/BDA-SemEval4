@@ -54,6 +54,23 @@ The above, wrapped to run for every language in the above list:
 for LANG in en de fr es ru it nl pl ja; do {(zcat wit_v1.train.all-1percent_sample.jsonl.gz | jq --arg LANG "$LANG" --raw-output 'select(.language == $LANG) | "\(.context_page_description) \(.context_section_description)"' | tr ',."()[]{}:;@#' ' ' | awk '{gsub(/[“”]|'"'"'\b|\b'"'"'/, " ", $0); gsub(/\s+/, "\n", $0); print tolower($0)}' | awk '!seen[$0]++' | gzip >"wordlist-$LANG.txt.gz"; echo "[ $(date) ] >>> LANG COMPLETE: $LANG" >&2;) &}; done
 ```
 
+Post-process wordlists from `make_wordlists.sh`:
+
+```bash
+for LANG in en de fr es ru it nl pl ja; do echo ">>> $LANG"; fd -g "wordlist-${LANG}*.txt.gz" -0 | xargs -0 cat | awk '!seen[$0]++' | gzip --best >"wordlist-$LANG.txt.gz"; done
+# https://crates.io/crates/fd-find / sudo apt install fd-find
+fd -t f 'wordlist-[a-z]{2}_(train|test|val)-[0-9]+\.txt\.gz' -0 | xargs -0 rm
+
+# Word count
+fd -t f -g '*.txt.gz' | while read -r filepath; do echo -e "${filepath}\t$(zcat "${filepath}" | wc -l)"; done
+```
+
+Trim all wordlists down to the same size:
+
+```bash
+fd -t f -g '*.txt.gz' | while read -r filename; do {(zcat "${filename}" | head -n 95263 | gzip --best >"${filename%.*}-clipped.txt.gz") &}; done; wait
+```
+
 
 ## Known issues
 - It is unlikely that Japanese is being tokenised correctly, given we simply look for any whitespace character and split on that. Ref <https://github.com/taishi-i/toiro>
