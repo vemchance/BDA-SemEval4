@@ -20,8 +20,8 @@ TODO Write this section of the README. We should include:
 TODO fill this out. I assume contributions are welcome after the challenge si finished. If so, we should say so here.
 
 ## Licence
-TODO Decide on a licence. I **strongly** recommend an open-source licence.
+All code in this repository is licensed under the [GNU Affero General Public License 3.0](./LICENSE.md). choosealicense.com has a great summary of this license: <https://choosealicense.com/licenses/agpl-3.0/>
 
-I would recommend [AGPL-3.0](https://choosealicense.com/licenses/agpl-3.0/), as it provides strong copyleft protections to ensure transparency on future and derivative works.
+[AGPL-3.0](https://choosealicense.com/licenses/agpl-3.0/) was chosen as it provides strong copyleft protections to ensure transparency on future and derivative works. Open Science for the win!
 
-Apache2 (or MIT) is another alternative that is more permissive, but for research like this, this could reduce the transparency of derivative works.
+TODO insert appropriate meme here
