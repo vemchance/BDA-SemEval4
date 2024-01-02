@@ -16,6 +16,10 @@ TODO Write this section of the README. We should include:
 - Where instructions are for each thing AND which is the main thing
 - MAYBE getting started instructions for the main thing
 
+## OneDrive Link
+Link to OneDrive where the big files live: [OneDrive](https://hullacuk-my.sharepoint.com/:f:/g/personal/v_sherratt-2020_hull_ac_uk/EpevevOycPdKppCMZaSyysgB-z2AeAiZ-2YtVN9tHKF-5Q?e=8Of06X)
+To be DELETED once the repo is public. E-mail Vic if you don't have access. Do not reshare link.
+
 ## Contributing
 TODO fill this out. I assume contributions are welcome after the challenge si finished. If so, we should say so here.
 
