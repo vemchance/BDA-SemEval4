@@ -49,7 +49,7 @@ def detect_face(path, max_results=4):
 
 # coded both subtask2 and subtask2b, so two paths required
 
-path = 'add you path to the images'
+path = 'add your path to the images'
 
 sub2a = []
 
