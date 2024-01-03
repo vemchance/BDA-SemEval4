@@ -71,6 +71,17 @@ Trim all wordlists down to the same size:
 fd -t f -g '*.txt.gz' | while read -r filename; do {(zcat "${filename}" | head -n 95263 | gzip --best >"${filename%.*}-clipped.txt.gz") &}; done; wait
 ```
 
+## Embeddings
+Each file that embeds a wordlist with the target algorithm follows a standard pattern. Each one is named `embed_ALGORITHM.py`, where `ALGORITHM` is the name of the aforementioned algorithm.
+
+The following environment variables are used:
+
+- **`INPUT`:** Defines a filepath to the input wordlist to embed. Wordlist will be gzip compressed.
+- **`OUTPUT`:** Defines a filepath to output embeddings to as [JSONL](https://jsonlines.org/).
+
+All scripts use `lib/handle_open.py`, so should support gzipped (.gz) input and output transparently based on filename.
+
+
 
 ## Known issues
 - It is unlikely that Japanese is being tokenised correctly, given we simply look for any whitespace character and split on that. Ref <https://github.com/taishi-i/toiro>
