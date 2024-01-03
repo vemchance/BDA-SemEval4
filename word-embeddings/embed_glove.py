@@ -49,13 +49,12 @@ with handle_open(INPUT, "r") as handle_in:
 			sys.stderr.write("\n"+repr(error))
 			continue
 		
-		embedded = glove.embeddings(line)
+		try:
+			embedded = glove.embeddings(line)[0]
+		except Exception as error:
+			sys.stderr.write("\n"+repr(error))
+			continue
 		
-		print("DEBUG:embedded", embedded)
-		
-		sys.exit()
-		
-			
 		handle_out.write((json.dumps(embedded) + "\n").encode("utf-8"))
 		
 		if i % 100 == 0:
