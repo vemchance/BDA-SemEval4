@@ -38,17 +38,21 @@ with handle_open(INPUT, "r") as handle_in:
 		if line == "":
 			continue
 		
+		
 		# print("DEBUG:line", line.decode('utf-8'))
 		
 		with torch.no_grad():
 			try:
-				text = clip.tokenize([line.decode('utf-8')[:76]]).to(device)
+				if type(line) is bytes:
+					line = line.decode("utf-8")
+				
+				text = clip.tokenize([line[:76]]).to(device)
 				embedded = model.encode_text(text).tolist()[0]
 			except (RuntimeError, UnicodeDecodeError) as error:
 				sys.stderr.write("\n"+repr(error))
 				continue
-			
-		handle_out.write((json.dumps(embedded) + "\n").encode("utf-8"))
+		
+		handle_out.write((line + "\t" + "\t".join([str(word) for word in embedded]) + "\n").encode("utf-8"))
 		
 		if i % 100 == 0:
 			sys.stderr.write(f"Processed {i} words\r")

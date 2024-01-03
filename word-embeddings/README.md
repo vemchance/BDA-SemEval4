@@ -101,7 +101,11 @@ The following scripts exist:
 - **`embed_clip.py`:** Embeds using [CLIP](https://github.com/openai/CLIP)
 - **`embed_glove.py`:** Embeds using [GloVe](https://nlp.stanford.edu/projects/glove/). Requires the extra environment variable `GLOVE` to be set to a GloVe file (e.g. `glove.twitter.27B.200d.txt`).
 
+Embed all wordlists in a given directory with a given algorithm (e.g. CLIP in this example):
 
+```bash
+find datasets/wit-wordlist/ -type f -print0  | rargs --pattern ".*(wordlist-[a-z]{2}).*" -0 sh -c 'INPUT="{0}" OUTPUT="wordlists-embedded/{1}_CLIP.tsv.gz" ./embed_clip.py'
+```
 
 ## Known issues
 - It is unlikely that Japanese is being tokenised correctly, given we simply look for any whitespace character and split on that. Ref <https://github.com/taishi-i/toiro>
