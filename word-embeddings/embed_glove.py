@@ -29,6 +29,15 @@ if not os.path.exists(GLOVE):
 
 
 
+### FUNCTIONS ################################################################
+
+def flatten(xss):
+	"""
+	Ref https://stackoverflow.com/a/952952/1460422
+	"""
+	return [x for xs in xss for x in xs]
+
+
 ### EMBEDDING ################################################################
 
 
@@ -50,11 +59,16 @@ with handle_open(INPUT, "r") as handle_in:
 			sys.stderr.write("\n"+repr(error))
 			continue
 		
+		
 		try:
-			embedded = glove.embeddings(line)[0]
+			embedded = glove.embeddings(line)
 		except Exception as error:
 			sys.stderr.write("\n"+repr(error))
 			continue
+		if len(embedded) == 0:
+			sys.stderr.write(f"\nError: Failed to embed with GloVe, ignoring.\n")
+			continue
+		embedded = embedded[0]
 		
 		handle_out.write((line + "\t" + "\t".join([str(word) for word in embedded]) + "\n").encode("utf-8"))
 		
