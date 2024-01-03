@@ -49,9 +49,9 @@ with handle_open(INPUT, "r") as handle_in:
 			sys.stderr.write("\n"+repr(error))
 			continue
 		
-		embedding = glove.embeddings(line)
+		embedded = glove.embeddings(line)
 		
-		print("DEBUG:embedding", embedding)
+		print("DEBUG:embedded", embedded)
 		
 		sys.exit()
 		
