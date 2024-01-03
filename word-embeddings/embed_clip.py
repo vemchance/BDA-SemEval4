@@ -44,8 +44,8 @@ with handle_open(INPUT, "r") as handle_in:
 			try:
 				text = clip.tokenize([line.decode('utf-8')[:76]]).to(device)
 				embedded = model.encode_text(text).tolist()[0]
-			except RuntimeError as error:
-				sys.stderr.write(repr(error))
+			except (RuntimeError, UnicodeDecodeError) as error:
+				sys.stderr.write("\n"+repr(error))
 				continue
 			
 		handle_out.write((json.dumps(embedded) + "\n").encode("utf-8"))
