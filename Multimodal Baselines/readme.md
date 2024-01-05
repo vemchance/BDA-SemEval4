@@ -5,10 +5,11 @@ Notebooks for multimodal baselines, similar to unimodal.
 Mostly boilerplate code and examples. Currently includes:
 
 - Vision and Text Dual Encoder
+- Basic Image and Text Ensemble (with modifications pending - works for binary and multiclass at the moment)
 
-Planning to include ensemble models, which are easier to work with. Also will include UNITER, CLIP, maybe a few others I can think of.
+Pending models: UNITER and similar, ConcatBert (variation of the ensemble with gated multimodal layer).
 
-Vision and Text Dual Encoder is problematic but code is available for anyone to work with. Dataloading, training loops .etc are relatively standard for PyTorch so should help as a good starting point.
+Vision and Text Dual Encoder is problematic but code is available for anyone to work with. Dataloading, training loops .etc are relatively standard for PyTorch so should help as a good starting point. Ensemble model works fine for now although I forgot to change the accuracy loop for the multiclass.
 
 
 ## Model Files
