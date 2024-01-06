@@ -14,7 +14,7 @@ import numpy as np
 import datashader as ds
 import colorcet
 
-from lib.io.handle_open import handle_open
+from lib.handle_open import handle_open
 from lib.glove.glove import GloVe
 from lib.glove.normalise_text import normalise as normalise_text
 
@@ -75,17 +75,16 @@ start = time.time()
 words = []
 embeds = []
 with handle_open(FILEPATH_INPUT, "r") as handle:
-	stop_words_skipped = 0
 	words_read = 0
 	for line in handle:
 		if type(line) is bytes:
 			line = line.decode("utf-8")
-		row = line.rstrip("\n").split("\t", maxsplit=1)
+		row = line.rstrip("\n").split("\t")
 		word = row[0]
 		if line == "" or len(row) < 2:
 			continue
 		
-		embed = [int(x) for x in row[1:]]
+		embed = [float(x) for x in row[1:]]
 		
 		words.append(word)
 		embeds.append(embed)
@@ -95,7 +94,7 @@ with handle_open(FILEPATH_INPUT, "r") as handle:
 			sys.stderr.write(f"Reading words: {words_read} words read so far\r")
 		
 
-logger.info(f"{len(words)} read in {round(time.time() - start, 3)}s, {stop_words_skipped} stop words skipped")
+logger.info(f"{len(words)} read in {round(time.time() - start, 3)}s")
 
 
 # ██    ██ ███    ███  █████  ██████  
