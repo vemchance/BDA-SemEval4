@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+#SBATCH -J WordEmbd
+#SBATCH -N 1
+#SBATCH -n 9
+#SBATCH --gres=gpu:1
+#SBATCH -o %j.%N.%a.word-embed.out.log
+#SBATCH -e %j.%N.%a.word-embed.err.log
+#SBATCH -p gpu
+#SBATCH --no-requeue
+#SBATCH --time=4-00:00:00
+#SBATCH --mem=25000
+# ---> in MiB
+# no-requeue: ref https://support.hull.ac.uk/tas/public/ssp/content/detail/incident?unid=652db7ac6e73485c9f7658db78b2b628
+
+
+if [[ -z "${MODEL}" ]]; then
+	echo "No model specified via the MODEL environment variable." >&2;
+	exit 1;
+fi
+
+filepath_experiment="./embed_${MODEL}.py";
+
+if [[ ! -x "${filepath_experiment}" ]]; then
+	echo "Error: Unknown model '${MODEL}'. Available model files (embed_\$MODEL.py):" >&2;
+	find . -maxdepth 1 -mindepth 1 -type f -name 'embed_*.py' >&2;
+	exit 2;
+fi
+
+# paranoia
+INPUT="${INPUT}" OUTPUT="${OUTPUT}" GLOVE="${GLOVE}" python3 "${filepath_experiment}";
