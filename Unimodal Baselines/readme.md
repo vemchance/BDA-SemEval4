@@ -9,6 +9,18 @@ Skip the first section of the notebook to read in the data, unless you want to m
 ## Model Files
 Model files are too large to add to repository, stored on OneDrive link (PDF on main) under Unimodal baselines.
 
+## Baseline Results
+Tested on the same task (Subtask1a). These results are not expected to be good as the models have only been finetuned on the task data and if the task were this easy... it would not be a competition:
+
+| Model  | Language | Accuracy | F1 Micro | F1 Macro |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| BERTBase | English | 0.214  | 0.29  | 0.10  |
+| MBert  | English  | 0.210  | 0.12  | 0.028  |
+| Roberta Base  | English | 0.136  | 0.16  | 0.039  |
+| Roberta Large  | English  | 0.116  | 0.13  | 0.34  |
+| XLM Roberta Base | English | 0.200  | 0.07  | 0.026  |
+| XLM Roberta Large  | English  | 0.188  | 0.010 | 0.0029  |
+
 ### TO DO:
 Requirements.txt file is missing, but you should be able to run the code and pip install from the imports.
 Need to test on multilingual data.
