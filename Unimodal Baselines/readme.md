@@ -14,12 +14,12 @@ Tested on the same task (Subtask1a). These results are not expected to be good a
 
 | Model  | Language | Accuracy | F1 Micro | F1 Macro |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| BERTBase | English | 0.214  | 0.29  | 0.10  |
-| MBert  | English  | 0.210  | 0.12  | 0.028  |
-| Roberta Base  | English | 0.136  | 0.16  | 0.039  |
-| Roberta Large  | English  | 0.116  | 0.13  | 0.34  |
-| XLM Roberta Base | English | 0.200  | 0.07  | 0.026  |
-| XLM Roberta Large  | English  | 0.188  | 0.010 | 0.0029  |
+| BERTBase | English | 0.21  | 0.29  | 0.10  |
+| MBert  | English  | 0.21  | 0.28  | 0.11  |
+| Roberta Base  | English | 0.24  | 0.40  | 0.17  |
+| Roberta Large  | English  | 0.25  | 0.48  | 0.25  |
+| XLM Roberta Base | English | 0.20  | 0.17  | 0.007  |
+| XLM Roberta Large  | English  | 0.26  | 0.49 | 0.19  |
 
 ### TO DO:
 Requirements.txt file is missing, but you should be able to run the code and pip install from the imports.
