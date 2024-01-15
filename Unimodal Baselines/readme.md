@@ -24,5 +24,3 @@ Tested on the same task (Subtask1a). These results are not expected to be good a
 ### TO DO:
 Requirements.txt file is missing, but you should be able to run the code and pip install from the imports.
 Need to test on multilingual data.
-
-Baselines not been tested - believe BERT uncased achieved around 62% accuracy on the validation set (not bad but small set)
