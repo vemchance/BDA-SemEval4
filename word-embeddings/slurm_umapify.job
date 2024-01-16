@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+#SBATCH -J umapify
+#SBATCH -N 1
+#SBATCH -n 9
+#SBATCH -o %j.%N.%a.umapify.out.log
+#SBATCH -e %j.%N.%a.umapify.err.log
+#SBATCH -p gpu
+#SBATCH --no-requeue
+#SBATCH --time=0-03:00:00
+#SBATCH --mem=25000
+# ---> in MiB
+# no-requeue: ref https://support.hull.ac.uk/tas/public/ssp/content/detail/incident?unid=652db7ac6e73485c9f7658db78b2b628
+
+# HACK: This should *really* be queued on compute rather than gpu since this isn't a GPU-based task ref <https://umap-learn.readthedocs.io/en/latest/faq.html#is-there-gpu-or-multicore-cpu-support>. But this task shouldn't take more than an hour and we're pressed for time, so I'm queuing it here instead. This is bad practice!
+
+if [[ -z "${DIM}" ]]; then
+	echo "No target dimension size specified via the DIM environment variable." >&2;
+	exit 1;
+fi
+
+# paranoia
+INPUT="${INPUT}" OUTPUT="${OUTPUT}" DIM="${DIM}" python3 "./umapify.py";
