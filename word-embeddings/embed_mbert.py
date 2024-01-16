@@ -65,7 +65,7 @@ with handle_open(INPUT, "r") as handle_in:
 			inputs = tokenizer(line, return_tensors="pt").to(device)
 			outputs = model(**inputs)
 
-			last_hidden_states = outputs.last_hidden_state.flatten()
+			last_hidden_states = outputs.last_hidden_state.flatten().tolist()
 		except Exception as error:
 			sys.stderr.write("\n"+repr(error))
 			continue		
