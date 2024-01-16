@@ -100,6 +100,9 @@ The following scripts exist:
 
 - **`embed_clip.py`:** Embeds using [CLIP](https://github.com/openai/CLIP)
 - **`embed_glove.py`:** Embeds using [GloVe](https://nlp.stanford.edu/projects/glove/). Requires the extra environment variable `GLOVE` to be set to a GloVe file (e.g. `glove.twitter.27B.200d.txt`).
+- **`embed_mbert.py`:** Embeds using [multilingual BERT](https://huggingface.co/bert-base-multilingual-uncased) - specifically `bert-base-multilingual-uncased`
+
+If anyone knows of where the source code repository for this model is that isn't at huggingface.co (HuggingFace *sucks*), please let me know and I'll update these links.
 
 Embed all wordlists in a given directory with a given algorithm (e.g. CLIP in this example):
 
