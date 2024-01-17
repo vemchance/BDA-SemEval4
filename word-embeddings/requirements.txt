@@ -3,3 +3,4 @@ git+https://github.com/openai/CLIP@main
 
 tensorflow
 numpy
+loguru
