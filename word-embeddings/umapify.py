@@ -74,6 +74,8 @@ for env_name in ["FILEPATH_INPUT", "FILEPATH_OUTPUT", "filepath_output_image", "
 start = time.time()
 words = []
 embeds = []
+embed_length = -1
+
 with handle_open(FILEPATH_INPUT, "r") as handle:
 	words_read = 0
 	for line in handle:
@@ -85,6 +87,12 @@ with handle_open(FILEPATH_INPUT, "r") as handle:
 			continue
 		
 		embed = [float(x) for x in row[1:]]
+		embed_length_next = len(embed)
+		if embed_length == -1:
+			embed_length = embed_length_next
+		if embed_length != embed_length_next:
+			sys.stderr.write(f"WARNING: {str(embed_length_next)} fields detected in row {words_read} vs {embed_length} expected, ignoring row\n\n")
+			continue
 		
 		words.append(word)
 		embeds.append(embed)
@@ -94,7 +102,7 @@ with handle_open(FILEPATH_INPUT, "r") as handle:
 			sys.stderr.write(f"Reading words: {words_read} words read so far\r")
 		
 
-logger.info(f"{len(words)} read in {round(time.time() - start, 3)}s")
+logger.info(f"{len(words)} read in {round(time.time() - start, 3)}s with {embed_length} fields per row")
 
 
 # ██    ██ ███    ███  █████  ██████  
