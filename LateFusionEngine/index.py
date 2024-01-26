@@ -127,8 +127,7 @@ def calc_accuracies_multi(dataset, field_targets):
 	return result
 
 def weighted_avg(val_a, val_b, weight_a, weight_b):
-	weight_sum = weight_a + weight_b
-	return ((val_a * weight_a/weight_sum) + (val_b * weight_b/weight_sum)) / 2
+	return ((val_a * weight_a) + (val_b * weight_b)) / (weight_a + weight_b)
 
 def argmax_dict(dict_source):
 	max_key = None
