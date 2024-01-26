@@ -223,12 +223,11 @@ for item_id, item in combined.items():
 			acc_weights[field]["vision"]
 		)
 	
-	prediction = argmax_dict(acc_combined)
+	# prediction = argmax_dict(acc_combined)
+	# predictions[item_id] = prediction
+	predictions[item_id] = acc_combined
 	
-	predictions[item_id] = prediction
 		
-
-
 handle_out = handle_open(OUTPUT, "w")
 handle_out.write(json.dumps(predictions))
 handle_out.close()
