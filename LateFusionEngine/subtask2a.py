@@ -96,13 +96,20 @@ def list2probabilities(arr):
 def calc_accuracies(dataset, field_target):
 	result = make_empty_probabilities([0, 0]) # [true, false] wrt correct or not ref label
 	
+	threshold = 0.5
+	
 	for item_id in dataset:
 		item = dataset[item_id]
 		for field in item[field_target]:
 			value_target = item[field_target][field]
 			value_label = item["label"][field]
 			
-			if value_target < 0.5 and value_label < 0.5:
+			
+			value_target_binarised = 0
+			if value_target >= threshold:
+				value_target_binarised = 1
+			
+			if abs(value_target_binarised - value_label) < 0.1:
 				result[field][0] += 1
 			else:
 				result[field][1] += 1
