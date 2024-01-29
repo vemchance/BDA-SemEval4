@@ -1,0 +1,1802 @@
+[
+    {
+        "id": "28493",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.8934289887547493
+    },
+    {
+        "id": "12336",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9725350141525269
+    },
+    {
+        "id": "24720",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9863843321800232
+    },
+    {
+        "id": "23847",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9503982663154602
+    },
+    {
+        "id": "35217",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.7888760566711426
+    },
+    {
+        "id": "45439",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.6062052249908447
+    },
+    {
+        "id": "45266",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.705307275056839
+    },
+    {
+        "id": "44244",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9990401268005371
+    },
+    {
+        "id": "56158",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.7411392629146576
+    },
+    {
+        "id": "10156",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9712991118431091
+    },
+    {
+        "id": "24246",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8568704724311829
+    },
+    {
+        "id": "45349",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8178418278694153
+    },
+    {
+        "id": "32161",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8731095194816589
+    },
+    {
+        "id": "34233",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8815883994102478
+    },
+    {
+        "id": "41883",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8597985506057739
+    },
+    {
+        "id": "46567",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.977703332901001
+    },
+    {
+        "id": "23831",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9601120948791504
+    },
+    {
+        "id": "35454",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8183967471122742
+    },
+    {
+        "id": "44043",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9612105488777161
+    },
+    {
+        "id": "33591",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9301778078079224
+    },
+    {
+        "id": "47095",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8869747519493103
+    },
+    {
+        "id": "35973",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9897552132606506
+    },
+    {
+        "id": "44370",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.7776972055435181
+    },
+    {
+        "id": "29119",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.6764670014381409
+    },
+    {
+        "id": "28106",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.5296307802200317
+    },
+    {
+        "id": "23621",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.7948546707630157
+    },
+    {
+        "id": "46048",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.9052568674087524
+    },
+    {
+        "id": "24370",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.5373392701148987
+    },
+    {
+        "id": "34392",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.7239028811454773
+    },
+    {
+        "id": "25281",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9819766283035278
+    },
+    {
+        "id": "45132",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9590640664100647
+    },
+    {
+        "id": "29958",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8211307525634766
+    },
+    {
+        "id": "48299",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.6411980986595154
+    },
+    {
+        "id": "32287",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.985598623752594
+    },
+    {
+        "id": "36122",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9498034715652466
+    },
+    {
+        "id": "32916",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9824362397193909
+    },
+    {
+        "id": "56042",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.6665411591529846
+    },
+    {
+        "id": "24661",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.9165389984846115
+    },
+    {
+        "id": "12335",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9891293048858643
+    },
+    {
+        "id": "35079",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.812227725982666
+    },
+    {
+        "id": "45443",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.8173344880342484
+    },
+    {
+        "id": "34831",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9838145971298218
+    },
+    {
+        "id": "41710",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.6058302223682404
+    },
+    {
+        "id": "32211",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9988264441490173
+    },
+    {
+        "id": "42876",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9473499059677124
+    },
+    {
+        "id": "44645",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9184725880622864
+    },
+    {
+        "id": "34229",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9940251111984253
+    },
+    {
+        "id": "35361",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.6875830292701721
+    },
+    {
+        "id": "46699",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9710304141044617
+    },
+    {
+        "id": "41908",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8835300803184509
+    },
+    {
+        "id": "56168",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.8842209950089455
+    },
+    {
+        "id": "56000",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.7239518463611603
+    },
+    {
+        "id": "45003",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9595409631729126
+    },
+    {
+        "id": "56111",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.894336998462677
+    },
+    {
+        "id": "23400",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9945212006568909
+    },
+    {
+        "id": "56015",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.9826645795255899
+    },
+    {
+        "id": "33762",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.9793342463672161
+    },
+    {
+        "id": "45059",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9917700290679932
+    },
+    {
+        "id": "23579",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.577483057975769
+    },
+    {
+        "id": "50148",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.7224063277244568
+    },
+    {
+        "id": "28325",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.8397576212882996
+    },
+    {
+        "id": "15334",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.7674655765295029
+    },
+    {
+        "id": "26043",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.5742589235305786
+    },
+    {
+        "id": "45075",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9921789765357971
+    },
+    {
+        "id": "25562",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.7886133939027786
+    },
+    {
+        "id": "56055",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.7760348320007324
+    },
+    {
+        "id": "45667",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9912950396537781
+    },
+    {
+        "id": "45612",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.976169764995575
+    },
+    {
+        "id": "35000",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9990326166152954
+    },
+    {
+        "id": "24612",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9985324740409851
+    },
+    {
+        "id": "44642",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.924149639904499
+    },
+    {
+        "id": "23884",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.9439371638000011
+    },
+    {
+        "id": "32323",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.6785492300987244
+    },
+    {
+        "id": "47160",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.5509048104286194
+    },
+    {
+        "id": "42088",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.8346015959978104
+    },
+    {
+        "id": "34724",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9995356202125549
+    },
+    {
+        "id": "44974",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9934901595115662
+    },
+    {
+        "id": "25623",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.747778594493866
+    },
+    {
+        "id": "35551",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.610793948173523
+    },
+    {
+        "id": "28550",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.607292652130127
+    },
+    {
+        "id": "42299",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9810076355934143
+    },
+    {
+        "id": "46987",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9311619997024536
+    },
+    {
+        "id": "45047",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.7742465734481812
+    },
+    {
+        "id": "45138",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.8602988570928574
+    },
+    {
+        "id": "44019",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8289214372634888
+    },
+    {
+        "id": "43591",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8432387113571167
+    },
+    {
+        "id": "45801",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9643089175224304
+    },
+    {
+        "id": "36044",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.778561532497406
+    },
+    {
+        "id": "31135",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9943721890449524
+    },
+    {
+        "id": "41606",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9814952611923218
+    },
+    {
+        "id": "32452",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8978792428970337
+    },
+    {
+        "id": "32733",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8684515953063965
+    },
+    {
+        "id": "30313",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.6757399141788483
+    },
+    {
+        "id": "36499",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9849589467048645
+    },
+    {
+        "id": "41355",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9966492056846619
+    },
+    {
+        "id": "42251",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8729599714279175
+    },
+    {
+        "id": "23300",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9369421601295471
+    },
+    {
+        "id": "35056",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8823167085647583
+    },
+    {
+        "id": "33794",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9864712953567505
+    },
+    {
+        "id": "32943",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.7694736123085022
+    },
+    {
+        "id": "24844",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9971577525138855
+    },
+    {
+        "id": "31975",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9914437532424927
+    },
+    {
+        "id": "42108",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9900116920471191
+    },
+    {
+        "id": "43416",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9198653697967529
+    },
+    {
+        "id": "29839",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.9853232763707638
+    },
+    {
+        "id": "44898",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.9829452931880951
+    },
+    {
+        "id": "45172",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9998223185539246
+    },
+    {
+        "id": "35890",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.6485596299171448
+    },
+    {
+        "id": "23669",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8787648677825928
+    },
+    {
+        "id": "45254",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9931809306144714
+    },
+    {
+        "id": "27762",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.8122377395629883
+    },
+    {
+        "id": "32330",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.5842356085777283
+    },
+    {
+        "id": "33456",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9931485652923584
+    },
+    {
+        "id": "36881",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.5777258574962616
+    },
+    {
+        "id": "12674",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8513587713241577
+    },
+    {
+        "id": "12632",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8493539094924927
+    },
+    {
+        "id": "45239",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8519185781478882
+    },
+    {
+        "id": "49859",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.8342466354370117
+    },
+    {
+        "id": "44846",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.935846135020256
+    },
+    {
+        "id": "29191",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9172673225402832
+    },
+    {
+        "id": "28339",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.828223466873169
+    },
+    {
+        "id": "45316",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9523162245750427
+    },
+    {
+        "id": "46478",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.5092914402484894
+    },
+    {
+        "id": "29919",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9991360306739807
+    },
+    {
+        "id": "12438",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.8171580582857132
+    },
+    {
+        "id": "35392",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.8381015360355377
+    },
+    {
+        "id": "24494",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9855986833572388
+    },
+    {
+        "id": "33003",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9773824214935303
+    },
+    {
+        "id": "56059",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.8290355056524277
+    },
+    {
+        "id": "47866",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9239099621772766
+    },
+    {
+        "id": "48519",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9552006125450134
+    },
+    {
+        "id": "43694",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9633063077926636
+    },
+    {
+        "id": "42340",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9970300197601318
+    },
+    {
+        "id": "44042",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.98338383436203
+    },
+    {
+        "id": "56089",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.6875192224979401
+    },
+    {
+        "id": "35329",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9824820160865784
+    },
+    {
+        "id": "33948",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8036044239997864
+    },
+    {
+        "id": "35686",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9276460409164429
+    },
+    {
+        "id": "56096",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.7160096168518066
+    },
+    {
+        "id": "41801",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9894076585769653
+    },
+    {
+        "id": "12668",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9907469153404236
+    },
+    {
+        "id": "45304",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8696911931037903
+    },
+    {
+        "id": "56033",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.6404455304145813
+    },
+    {
+        "id": "41672",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.8340026885271072
+    },
+    {
+        "id": "30421",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.6271685361862183
+    },
+    {
+        "id": "42935",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9980392456054688
+    },
+    {
+        "id": "36684",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.8195455223321915
+    },
+    {
+        "id": "56004",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.6759901940822601
+    },
+    {
+        "id": "49677",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.7409190535545349
+    },
+    {
+        "id": "56204",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.8961811885237694
+    },
+    {
+        "id": "44847",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8981673121452332
+    },
+    {
+        "id": "32403",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.69539675116539
+    },
+    {
+        "id": "44749",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.6623814105987549
+    },
+    {
+        "id": "35402",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.8193650096654892
+    },
+    {
+        "id": "36576",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8374376893043518
+    },
+    {
+        "id": "23751",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.9900826029479504
+    },
+    {
+        "id": "31841",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.900331437587738
+    },
+    {
+        "id": "41649",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9204725027084351
+    },
+    {
+        "id": "56133",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.7075250446796417
+    },
+    {
+        "id": "43502",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.6341554224491119
+    },
+    {
+        "id": "45546",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9850023984909058
+    },
+    {
+        "id": "30697",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9158421754837036
+    },
+    {
+        "id": "33798",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8718607425689697
+    },
+    {
+        "id": "42148",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.6035268604755402
+    },
+    {
+        "id": "36705",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8453673124313354
+    },
+    {
+        "id": "44924",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8294185996055603
+    },
+    {
+        "id": "42932",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9843350052833557
+    },
+    {
+        "id": "24082",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9721517562866211
+    },
+    {
+        "id": "41622",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9859552979469299
+    },
+    {
+        "id": "32532",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.7895371317863464
+    },
+    {
+        "id": "30833",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.8876078948378563
+    },
+    {
+        "id": "56014",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.811779797077179
+    },
+    {
+        "id": "23318",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9918605089187622
+    },
+    {
+        "id": "10093",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.8304285854101181
+    },
+    {
+        "id": "15502",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.5543373823165894
+    },
+    {
+        "id": "47167",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9636576771736145
+    },
+    {
+        "id": "33501",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9920306205749512
+    },
+    {
+        "id": "43543",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9662381410598755
+    },
+    {
+        "id": "43605",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9664223790168762
+    },
+    {
+        "id": "47980",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.5266599655151367
+    },
+    {
+        "id": "30144",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9758409857749939
+    },
+    {
+        "id": "46428",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9897602200508118
+    },
+    {
+        "id": "27865",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.5080962777137756
+    },
+    {
+        "id": "36673",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9116597175598145
+    },
+    {
+        "id": "47068",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.6648611426353455
+    },
+    {
+        "id": "42938",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9993903040885925
+    },
+    {
+        "id": "28908",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.6302213668823242
+    },
+    {
+        "id": "36401",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8897486329078674
+    },
+    {
+        "id": "36399",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9866313934326172
+    },
+    {
+        "id": "42265",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9882121086120605
+    },
+    {
+        "id": "28431",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9058268070220947
+    },
+    {
+        "id": "41629",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.7383977174758911
+    },
+    {
+        "id": "56019",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.570084810256958
+    },
+    {
+        "id": "45767",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8686028718948364
+    },
+    {
+        "id": "44682",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9301857352256775
+    },
+    {
+        "id": "33359",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.7663960456848145
+    },
+    {
+        "id": "44792",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9767124652862549
+    },
+    {
+        "id": "42241",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9678742289543152
+    },
+    {
+        "id": "43529",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.6774883270263672
+    },
+    {
+        "id": "45808",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.990225613117218
+    },
+    {
+        "id": "32389",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.7584292739629745
+    },
+    {
+        "id": "41652",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.8245790153741837
+    },
+    {
+        "id": "28374",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.877678819000721
+    },
+    {
+        "id": "28420",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.6199852824211121
+    },
+    {
+        "id": "44574",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9670476913452148
+    },
+    {
+        "id": "45220",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9829545021057129
+    },
+    {
+        "id": "42310",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.7813794761896133
+    },
+    {
+        "id": "42248",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9862632155418396
+    },
+    {
+        "id": "31145",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9936709403991699
+    },
+    {
+        "id": "13046",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9843580722808838
+    },
+    {
+        "id": "45317",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.5996163487434387
+    },
+    {
+        "id": "32879",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.6851846575737
+    },
+    {
+        "id": "32022",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9891369938850403
+    },
+    {
+        "id": "41766",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8823825716972351
+    },
+    {
+        "id": "45401",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.7848801612854004
+    },
+    {
+        "id": "25894",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.918332040309906
+    },
+    {
+        "id": "46337",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9897804856300354
+    },
+    {
+        "id": "12947",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9086757302284241
+    },
+    {
+        "id": "29450",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.7432862818241119
+    },
+    {
+        "id": "32727",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.652141809463501
+    },
+    {
+        "id": "35510",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9185634851455688
+    },
+    {
+        "id": "34247",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9822014570236206
+    },
+    {
+        "id": "43504",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9771583080291748
+    },
+    {
+        "id": "56112",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.8445504456758499
+    },
+    {
+        "id": "45395",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.8921294584870338
+    },
+    {
+        "id": "50053",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.5726949572563171
+    },
+    {
+        "id": "29644",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.5420612096786499
+    },
+    {
+        "id": "45616",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9602645635604858
+    },
+    {
+        "id": "32140",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.6951430439949036
+    },
+    {
+        "id": "46082",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9994110465049744
+    },
+    {
+        "id": "31296",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.7218267321586609
+    },
+    {
+        "id": "31857",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8967393636703491
+    },
+    {
+        "id": "27768",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8175520896911621
+    },
+    {
+        "id": "30373",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.6853510141372681
+    },
+    {
+        "id": "35265",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9951371550559998
+    },
+    {
+        "id": "12742",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.982007622718811
+    },
+    {
+        "id": "45194",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9795978665351868
+    },
+    {
+        "id": "56195",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.9459727257490158
+    },
+    {
+        "id": "45645",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8485404849052429
+    },
+    {
+        "id": "47071",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8418326377868652
+    },
+    {
+        "id": "31448",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8373457789421082
+    },
+    {
+        "id": "56138",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.8396461457014084
+    },
+    {
+        "id": "56061",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.9302898645401001
+    },
+    {
+        "id": "25173",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9168688654899597
+    },
+    {
+        "id": "29821",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9971074461936951
+    },
+    {
+        "id": "30460",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.7551121115684509
+    },
+    {
+        "id": "45414",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8375295400619507
+    },
+    {
+        "id": "46393",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9815097451210022
+    },
+    {
+        "id": "44246",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9779181480407715
+    },
+    {
+        "id": "45622",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.7386261820793152
+    },
+    {
+        "id": "28845",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.5364175140857697
+    },
+    {
+        "id": "45187",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9796519875526428
+    },
+    {
+        "id": "56052",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.6098500788211823
+    },
+    {
+        "id": "28494",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8863140344619751
+    },
+    {
+        "id": "33394",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9948233962059021
+    },
+    {
+        "id": "33990",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.5288876891136169
+    },
+    {
+        "id": "28219",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9672505855560303
+    },
+    {
+        "id": "35882",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8454979062080383
+    },
+    {
+        "id": "43419",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9713086485862732
+    },
+    {
+        "id": "24602",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9890541434288025
+    },
+    {
+        "id": "36695",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9980498552322388
+    },
+    {
+        "id": "30498",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.6772744953632355
+    },
+    {
+        "id": "44249",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9293786883354187
+    },
+    {
+        "id": "44655",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.673569917678833
+    },
+    {
+        "id": "56080",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.9223167449235916
+    },
+    {
+        "id": "33614",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.5738407373428345
+    },
+    {
+        "id": "50625",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9887053370475769
+    },
+    {
+        "id": "23774",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9252411127090454
+    },
+    {
+        "id": "34167",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8815500140190125
+    },
+    {
+        "id": "47987",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8455270528793335
+    },
+    {
+        "id": "44980",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9924495220184326
+    },
+    {
+        "id": "36864",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.9030175060033798
+    },
+    {
+        "id": "56023",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.8852222412824631
+    },
+    {
+        "id": "25216",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.5838484764099121
+    },
+    {
+        "id": "12842",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9836409091949463
+    },
+    {
+        "id": "44818",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.5128072500228882
+    },
+    {
+        "id": "31536",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9847831726074219
+    },
+    {
+        "id": "36301",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.6481459140777588
+    },
+    {
+        "id": "25398",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.5569696426391602
+    },
+    {
+        "id": "56087",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.7244757115840912
+    },
+    {
+        "id": "36892",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8748880624771118
+    },
+    {
+        "id": "29727",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9993574023246765
+    },
+    {
+        "id": "29444",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8030372858047485
+    },
+    {
+        "id": "35394",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.5867282152175903
+    },
+    {
+        "id": "46705",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9809777140617371
+    },
+    {
+        "id": "29227",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8898009061813354
+    },
+    {
+        "id": "44852",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9782899022102356
+    },
+    {
+        "id": "30752",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9295378923416138
+    },
+    {
+        "id": "30225",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9805830717086792
+    },
+    {
+        "id": "43549",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.955542802810669
+    },
+    {
+        "id": "45281",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.5429698824882507
+    },
+    {
+        "id": "47044",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.900333046913147
+    },
+    {
+        "id": "48973",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.560128390789032
+    },
+    {
+        "id": "15628",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9744889140129089
+    },
+    {
+        "id": "42126",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.7917060554027557
+    },
+    {
+        "id": "56136",
+        "ture_label": "non_propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.9696736447513103
+    },
+    {
+        "id": "12383",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9094577431678772
+    },
+    {
+        "id": "46093",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.8622580766677856
+    },
+    {
+        "id": "32814",
+        "ture_label": "propagandistic",
+        "predicted_label": "propagandistic",
+        "predicted_label_probability": 0.9751582741737366
+    },
+    {
+        "id": "23347",
+        "ture_label": "propagandistic",
+        "predicted_label": "non_propagandistic",
+        "predicted_label_probability": 0.7219713628292084
+    }
+]
