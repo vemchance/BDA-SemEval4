@@ -38,9 +38,11 @@ TODO Finish this section of the README. We should include a high-level overview 
 ## Architecture
 TODO fill this out.
 
-## OneDrive Link
-Link to OneDrive where the big files live: [OneDrive](https://hullacuk-my.sharepoint.com/:f:/g/personal/v_sherratt-2020_hull_ac_uk/EpevevOycPdKppCMZaSyysgB-z2AeAiZ-2YtVN9tHKF-5Q?e=8Of06X)
-To be DELETED once the repo is public. E-mail Vic if you don't have access. Do not reshare link.
+## Pending Changes
+- Subtask2a: A modified set of code which allows easy inclusion, exclusion and stacking of models for all experiments, without manually modifying code.
+- Subtask2b: A modified set of code which allows easy inclusion, exlcusion and stacking of models for all experiments without manual mdoficiation, including ResNet50 and parameter sweep.
+- Integrating Evaluation Code which applies the F1 Hierarchy after or regardless of LateFusion.
+
 
 ## Contributing
 TODO fill this out. I assume contributions are welcome after the challenge is finished. If so, we should say so here.
