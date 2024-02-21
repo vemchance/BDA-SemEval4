@@ -17,9 +17,9 @@ The code in this repository is split into multiple subdirectories:
 - **`EDA`:** Exploratory Data Analysis. Extra experiments not required to utilise our approach.
 - **`GoogleVision`:** Generates entities from image files. This is used as an input to the vision stream.
 - **`LateFusionEngine`:** The late-fusion engine that merges the output of the NLP and Vision streams together using an per-label accuracy weighting system.
-- **`Multimodal Baselines`:** 
-- **`Predictions`:** The predictions we (presumably) submitted to the challenge for the `dev` dataset. TODO confirm if this is actually the case.
-- **`Test Prediction Files`:** The predictions we (presumably) submitted to the challenge for the `test` dataset. TODO confirm if this is actually the case.
+- **`Subtask2a`: Contains the training code, F1 hiersarchy (Evaluation Code) and models used for Subtask2a.
+- **`Subtask2b`: Contains the training code, models and post-evaluation models from Subtask2b.
+- **`Test Prediction Files`:** Test prediction files which can be used to test the late fusion engine.
 - **`Unimodal Baselines`:** 
 - **`scorer-baseline`:** 
 - **`word-embeddings`:** Some experiments with word embedding algorithms. These experiments informed the rest of the work done, but is not required to use the approach detailed in our paper.
