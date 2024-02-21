@@ -20,8 +20,6 @@ The code in this repository is split into multiple subdirectories:
 - **`Subtask2a`:** Contains the training code, F1 hiersarchy (Evaluation Code) and models used for Subtask2a.
 - **`Subtask2b`:** Contains the training code, models and post-evaluation models from Subtask2b.
 - **`Test Prediction Files`:** Test prediction files which can be used to test the late fusion engine.
-- **`Unimodal Baselines`:** 
-- **`scorer-baseline`:** 
 - **`word-embeddings`:** Some experiments with word embedding algorithms. These experiments informed the rest of the work done, but is not required to use the approach detailed in our paper.
 
 TODO Fill in the rest of the above descriptions.
