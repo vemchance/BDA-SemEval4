@@ -2,7 +2,7 @@
 
 > Code for the [Big Data Analytics](https://bda-hull.github.io/) research group [SemEval2024 Task 4](https://propaganda.math.unipd.it/semeval2024task4/index.html) entry.
 
-This is our entry to [SemEval2024 Task 4: Multilingual Detection of Persuasion Techniques in Memes](https://propaganda.math.unipd.it/semeval2024task4/index.html). Our plan is to tackle only tasks **1** and **2a**.
+This is our entry to [SemEval2024 Task 4: Multilingual Detection of Persuasion Techniques in Memes](https://propaganda.math.unipd.it/semeval2024task4/index.html). 
 
 **Paper:** \[LINK PENDING. TODO FILL IN HERE WHEN AVAILABLE.\]
 
