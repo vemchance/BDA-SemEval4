@@ -11,7 +11,7 @@ To utilise the F1 Hierarchy and Late Fusion Engine, this is done in the Evaluati
 - Conduct the evaluation with F1 only: as above, but switch from predicted_output to predicted_outputf1h.
 - Late Fusion outputs can be read in as .json files and passed through the F1 Hierarchy without running inference on a model. This code will be updated shortly with an example of this.
 
-As a note, in our experiments late fusion is primarily used with the BertExternal model.
+As a note, in our experiments late fusion is primarily used with the BertExternal model and CLIP. Note that CLIP is trained using Keras/Tensorflow, whereas the other ensembles and Bert(ex) use PyTorch at present.
 
 ## Google Vision (BERT(ex))
 This is a seperate model which reads in Google Vision entities as text. You can download these entities for the training and test sets [here](https://drive.google.com/drive/folders/14PhBsqzrEa4UjjTITCF8pLPWTa8SW6ek).
