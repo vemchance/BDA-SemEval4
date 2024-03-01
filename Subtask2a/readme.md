@@ -17,5 +17,5 @@ As a note, in our experiments late fusion is primarily used with the BertExterna
 This is a seperate model which reads in Google Vision entities as text. You can download these entities for the training and test sets [here](https://drive.google.com/drive/folders/14PhBsqzrEa4UjjTITCF8pLPWTa8SW6ek).
 
 ## Task Data
-Copies of the task data are available from the [task website](https://propaganda.math.unipd.it/semeval2024task4). For copies of the augmented data used for training (e.g., direct translated data), please [Contact the lead paper author](v.sherratt-2020@hull.ac.uk). Alternatively, you can recreate the sampled training data using GPT-3.5, albeit the random sample you choose from the task data may differ from ours.
+Copies of the task data are available from the [task website](https://propaganda.math.unipd.it/semeval2024task4). For copies of the augmented data used for training (e.g., direct translated data), please contact the lead author: v.sheratt-2020@hull.ac.uk. Alternatively, you can recreate the sampled training data using GPT-3.5, albeit the random sample you choose from the task data may differ from ours.
 
