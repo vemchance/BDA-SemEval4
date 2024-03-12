@@ -41,7 +41,7 @@ num_classes = len(task_data['techniques_encoded'].unique())
 print(num_classes, flush=True)
 #### read a csv instead ####
 
-path = "/home/h3/647518/SemEval/improved_model_2b/subtask2b_images"
+path = "image_path"
 images = [os.path.join(dirpath,f) for (dirpath, dirnames, filenames) in os.walk(path) for f in filenames]
 images_df = pd.DataFrame(images, columns=['filepath'])
 images_df['image'] = images_df['filepath'].str.split('/').str[-1]
@@ -239,7 +239,7 @@ for epochs in range(num_epochs):
     val_accuracy, f1_micro_val, f1_macro_val, loss = val_epoch(ensemble_model, val_dataloader)
     print(f"\n Epoch:{epochs + 1} / {num_epochs}, Val accuracy:{val_accuracy:.5f}, Val F1 Micro: {f1_micro_val:.5f}, Val F1 Macro:{f1_macro_val:.5f}, Validation Loss: {loss:.5f}", flush=True)
 
-    if f1_macro_val > best_loss:
+    if f1_macro_val < best_loss:
         print('Saving Model :)')
         torch.save(ensemble_model, f'2bensemble_model_improved_{epochs}e.pth')
         torch.save(ensemble_model.state_dict(),f'2bensemble_model_improved_{epochs}e_weights.pth')
