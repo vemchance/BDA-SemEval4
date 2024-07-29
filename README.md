@@ -4,7 +4,7 @@
 
 This is our entry to [SemEval2024 Task 4: Multilingual Detection of Persuasion Techniques in Memes](https://propaganda.math.unipd.it/semeval2024task4/index.html). 
 
-**Paper:** <https://bda-hull.github.io/publications/%5bPRE-CAMERIA%20READY%5d%20Detection%20of%20Persuasion%20in%20Memes%20Across%20Languages%20with%20Ensemble%20Learning%20and%20External%20Knowledge.pdf>
+**Paper:** <https://aclanthology.org/2024.semeval-1.20.pdf>
 
 **This repository is a work in progress.**
 
